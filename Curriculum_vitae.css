@@ -8,8 +8,11 @@ h3 {
 
 #Texto1 {
     font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
-
+/* Titulos */
 #Bienvenido {
     text-align: center;
     font-size: 60px;
@@ -23,12 +26,37 @@ h3 {
     text-shadow: 18px 2px 6px rgba(28,110,164,0.83);
 }
 
+/* Estas propiedades abarcan los titulos en rojo */
 #Texto2{
-    font-size: 30px;
+    font-size: 40px;
     color:crimson;
     font-style: oblique;
 }
 
+/* Estas propiedades abarcan todo el texto debajo de la linea*/
 #Texto3 {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
+
+#img1, #img2 {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 600px;
+
+}
+
+/* Clear para que los botones no se junten a las imagenes de arriba */
+
+#botones {
+    clear: both;
+    text-align: center;
+}
+
+#myButton {
+    color: rgb(255, 255, 255); font-size: 24px; line-height: 24px; padding: 4px; border-radius: 6px; font-family: Verdana, Geneva, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(255, 18, 121) 0%, rgb(255, 133, 166) 100%, rgb(255, 18, 121) 100%); box-shadow: rgba(255, 205, 248, 0.83) 2px 8px 18px 12px; border: 0px solid rgb(255, 113, 158); display: inline-block;}
+    #myButton:hover {
+    background: #FF1279; }
+    #myButton:active {
+    background: #FF1279; }
